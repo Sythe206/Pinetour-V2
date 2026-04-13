@@ -1,0 +1,152 @@
+.body {
+    padding: 0px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: linear-gradient(#b3ddff, #9cd2ff);
+    width: 1440px;
+}
+
+.container {
+    width: 1440px;
+    margin-inline: auto;
+
+}
+
+#hero {
+    background-image: url(/images/HeroImage.png);
+    height: 773px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 34px;
+}
+
+.userIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.navContainer {
+    display: flex;
+    gap: 24px;
+}
+
+.languageChanger {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navText {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100px;
+}
+.heroTextContainer {
+    height: 394px;
+    width: 618px;
+    margin-inline: auto;
+    text-align: center;
+    margin-top: 64px;
+}
+.heroSubtitle {
+    font-size: 80px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #E8EDF2;
+    opacity: calc(72%);
+    height: 80px;
+}
+.heroTitle {
+    font-size: 250px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #FDFDFE;
+    opacity: calc(98%);
+    height: 250px;
+}
+.heroYear {
+    font-size: 64px;
+    font-family: "Hanuman", sans-serif;
+    font-weight: 900;
+    color: white;
+    opacity: calc(80%);
+    height: 64px;
+}
+#journey {
+    background-image: url(/images/Location\ image.png);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.card {
+    height: 370px;
+    width: 275px;
+    border-radius: 40px;
+    background-image: url(/images/1.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+.card:hover {
+    filter: brightness(60%);
+}
+.cardText {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 37px;
+    color: #FDFDFE;
+    opacity: calc(80%);
+    width: 232px;
+    height: 88px;
+    text-shadow: 0px, 4px, 4.9px, black;
+    text-align: center;
+    margin-inline: auto;
+} 
+.cardTwoImg {
+    background-image: url(/images/2.png);
+    background-size: cover;
+}
+.cardThreeImg {
+    background-image: url(/images/3.png);
+    background-size: cover;
+}
+.cardFourImg {
+    background-image: url(/images/4.png);
+    background-size: cover;
+}
+.height {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 37px;
+    color: #FDFDFE;
+    opacity: calc(80%);
+    width: 232px;
+    height: 44px;
+    text-shadow: 0px, 4px, 4.9px, black;
+    text-align: center;
+    margin-inline: auto;
+}
+
