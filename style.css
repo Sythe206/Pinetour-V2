@@ -97,64 +97,61 @@
   opacity: calc(80%);
   height: 64px;
 }
-#journey {
-  background-image: url(/Location\ image.png);
+.travel-spots {
   height: 500px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  column-gap: 40px;
+  background-image: url(/Location\ image.png);
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.travelSpotImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.travel-spot {
+  width: 276px;
+  height: 370px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 40px;
+  box-shadow: -8px -8px 0px 0px rgba(46, 65, 71, 0.4), 8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+
+.travel-spot__name {
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  opacity: 0.8;
+  width: 232px;
+  font-size: 37px;
+  color: #fdfdfe;
+  font-weight: 400;
+  position: absolute;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  font-family: "Bebas Neue", sans-serif;
+  text-shadow: 0px 4px 4.9px rgba(0, 0, 0, 0.65);
   display: flex;
   justify-content: center;
-  gap: 40px;
+  margin: 0px;
 }
-.card {
-  height: 370px;
-  width: 275px;
-  border-radius: 40px;
-  background-image: url(/1.png);
-  background-size: cover;
-  display: flex;
-  align-items: center;
-  box-shadow:
-    -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
-    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
-  margin-top: 65px;
+
+.travel-spot__overlay {
+  inset: 0;
+  opacity: 0;
+  height: 100%;
+  position: absolute;
+  background-color: #292929;
 }
-.card:hover {
-  filter: brightness(60%);
-}
-.cardText {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 37px;
-  color: #fdfdfe;
-  opacity: calc(80%);
-  width: 232px;
-  height: 88px;
-  text-shadow: 0px, 4px, 4.9px, black;
-  text-align: center;
-  margin-inline: auto;
-}
-.cardTwoImg {
-  background-image: url(/2.png);
-  background-size: cover;
-}
-.cardThreeImg {
-  background-image: url(/3.png);
-  background-size: cover;
-}
-.cardFourImg {
-  background-image: url(/4.png);
-  background-size: cover;
-}
-.height {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 37px;
-  color: #fdfdfe;
-  opacity: calc(80%);
-  width: 232px;
-  height: 44px;
-  text-shadow: 0px, 4px, 4.9px, black;
-  text-align: center;
-  margin-inline: auto;
+
+.travel-spot .travel-spot__overlay:hover {
+  opacity: 0.4;
 }
 #destination {
   background-image: url(/Roadmap\ image.png);
