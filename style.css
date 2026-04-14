@@ -12,7 +12,7 @@
 }
 #hero {
   background-image: url(/HeroImage.png);
-  height: 773px;
+  height: 673.01px;
   background-repeat: no-repeat;
   background-size: contain;
   padding-top: 100px;
@@ -105,7 +105,6 @@
   display: flex;
   justify-content: center;
   gap: 40px;
-  padding: 100px 0px 0px;
 }
 .card {
   height: 370px;
