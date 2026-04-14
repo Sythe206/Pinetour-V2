@@ -10,7 +10,7 @@
   width: 1440px;
   margin-inline: auto;
 }
-#hero1 {
+#hero {
   background-image: url(/HeroImage.png);
   height: 673.01px;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@
   height: 100px;
   align-items: center;
   padding: 0px 118px;
-  padding-left: 0px;
+  padding-left: 383px;
   width: 1440px;
   position: fixed;
   top: 0;
